@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CaffeAqil    </title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  </head>
+  <body>
+
+    <nav>
+      <h1>Cafe Aqil</h1>
+      <div class="nav-link">
+        <a href="/">Home</a>
+        <a href="/menu">Menu</a>
+      </div>
+    </nav>
+
+    <section class="content">
+      <img src="{% static 'images/home-wallpaper1.jpg' %}" alt="home-wallpaper" />
+      <div class="overlay">
+        <div class="overlay-content">
+          <h2>Selamat Datang di cafe saya</h2>
+          <p>Kenikmatan anda merupkan kebahagiaan kami</p>
+          <button>Pesan Sekarang</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <h2>Cafe Aqil</h2>
+        <p>2023 Copyright coffe-aqil, all right reserved</p>
+    </footer>
+  
+</body>
+</html>
